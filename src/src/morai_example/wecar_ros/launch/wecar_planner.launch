@@ -1,0 +1,9 @@
+<launch>
+        <!-- args = "(추종할 경로 이름)" -->
+	<node pkg="wecar_ros" type="morai_planner.py" args="final2" name="planner"/>
+	<node pkg="wecar_ros" type="camera.py" name="camera_course"/>
+	<node pkg="wecar_ros" type="camera_S.py" name="camera_S_course"/>
+	<node pkg="wecar_ros" type="camera_traffic.py" name="camera_traffic_course"/>
+	<node pkg="obstacle_detector" type="bounding_box" name="dynamic_obstacle"/>
+
+</launch>

@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/hyeokje/morai_ws/devel/include/**",
+        "/home/hyeokje/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/hyeokje/catkin_ws/src/capston_3/include/**",
+        "/home/hyeokje/catkin_ws/src/capstone_jhj/include/**",
+        "/home/hyeokje/catkin_ws/src/pcl/include/**",
+        "/home/hyeokje/catkin_ws/src/ros_tutorials_topic/include/**",
+        "/home/hyeokje/catkin_ws/src/rviz_marker/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
